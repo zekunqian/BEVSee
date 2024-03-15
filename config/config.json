@@ -1,0 +1,144 @@
+{
+  "name": "BEVSee",
+  "target": "CVPR",
+  "Authors": "Zekun Qian",
+  "Datasets": {
+    "CSRDR_V2_G1_tracking": {
+      "root_view": "data/CSRD/real/Images/V2_G1/h1",
+      "comp_view_list": [
+        "data/CSRD/real/Images/V2_G1/h2"
+      ],
+      "label": "None",
+      "output": "data/CSRD/real/Images/V2_G1/log",
+      "json": "data/CSRD/real/Images/V2_G1/json",
+      "annotation": "data/CSRD/real/GT_txt",
+      "view": 2,
+      "struct": {
+        "images": "",
+        "labels": "",
+        "features": ""
+      }
+    },
+    "CSRDR_V2_G3_tracking": {
+      "root_view": "data/CSRD/real/Images/V2_G3/h1",
+      "comp_view_list": [
+        "data/CSRD/real/Images/V2_G3/h2"
+      ],
+      "label": "None",
+      "output": "data/CSRD/real/Images/V2_G3/log",
+      "json": "data/CSRD/real/Images/V2_G3/json",
+      "annotation": "data/CSRD/real/GT_txt",
+      "view": 2,
+      "struct": {
+        "images": "",
+        "labels": "",
+        "features": ""
+      }
+    },
+     "CSRDR_V3_G2_tracking": {
+      "root_view": "data/CSRD/real/Images/V3_G2/h1",
+      "comp_view_list": [
+        "data/CSRD/real/Images/V3_G2/h2",
+        "data/CSRD/real/Images/V3_G2/h3"
+      ],
+      "label": "None",
+      "output": "data/CSRD/real/Images/V3_G2/log",
+      "json": "data/CSRD/real/Images/V3_G2/json",
+      "annotation": "data/CSRD/real/GT_txt",
+      "view": 3,
+      "struct": {
+        "images": "",
+        "labels": "",
+        "features": ""
+      }
+    },
+    "CSRDR_V3_G3_tracking": {
+      "root_view": "data/CSRD/real/Images/V3_G3/h1",
+      "comp_view_list": [
+        "data/CSRD/real/Images/V3_G3/h2",
+        "data/CSRD/real/Images/V3_G3/h3"
+      ],
+      "label": "None",
+      "output": "data/CSRD/real/Images/V3_G3/log",
+      "json": "data/CSRD/real/Images/V3_G3/json",
+      "annotation": "data/CSRD/real/GT_txt",
+      "view": 3,
+      "struct": {
+        "images": "",
+        "labels": "",
+        "features": ""
+      }
+    },
+     "CSRDR_V3_G5_tracking": {
+      "root_view": "data/CSRD/real/Images/V3_G5/h1",
+      "comp_view_list": [
+        "data/CSRD/real/Images/V3_G5/h2",
+        "data/CSRD/real/Images/V3_G5/h3"
+      ],
+      "label": "None",
+      "output": "data/CSRD/real/Images/V3_G5/log",
+      "json": "data/CSRD/real/Images/V3_G5/json",
+      "annotation": "data/CSRD/real/GT_txt",
+      "view": 3,
+      "struct": {
+        "images": "",
+        "labels": "",
+        "features": ""
+      }
+    },
+     "CSRDR_V4_G1_tracking": {
+      "root_view": "data/CSRD/real/Images/V4_G1/h1",
+      "comp_view_list": [
+        "data/CSRD/real/Images/V4_G1/h2",
+        "data/CSRD/real/Images/V4_G1/h3",
+        "data/CSRD/real/Images/V4_G1/h4"
+      ],
+      "label": "None",
+      "output": "data/CSRD/real/Images/V4_G1/log",
+      "json": "data/CSRD/real/Images/V4_G1/json",
+      "annotation": "data/CSRD/real/GT_txt",
+      "view": 4,
+      "struct": {
+        "images": "",
+        "labels": "",
+        "features": ""
+      }
+    },
+     "CSRDR_V4_G2_tracking": {
+      "root_view": "data/CSRD/real/Images/V4_G2/h1",
+      "comp_view_list": [
+        "data/CSRD/real/Images/V4_G2/h2",
+        "data/CSRD/real/Images/V4_G2/h3",
+        "data/CSRD/real/Images/V4_G2/h4"
+      ],
+      "label": "None",
+      "output": "data/CSRD/real/Images/V4_G2/log",
+      "json": "data/CSRD/real/Images/V4_G2/json",
+      "annotation": "data/CSRD/real/GT_txt",
+      "view": 4,
+      "struct": {
+        "images": "",
+        "labels": "",
+        "features": ""
+      }
+    },
+    "CSRD_Virtual": {
+      "root_view": "data/CSRD/virtual/original_img_backup/hor1_video",
+      "comp_view_list": [
+        "data/CSRD/virtual/original_img_backup/hor2_video",
+        "data/CSRD/virtual/original_img_backup/hor3_video",
+        "data/CSRD/virtual/original_img_backup/hor4_video",
+        "data/CSRD/virtual/original_img_backup/hor5_video"
+      ],
+      "label": "data/CSRD/virtual/annotation",
+      "output": "data/CSRD/virtual/log",
+      "annotation": "data/CSRD/virtual/annotation",
+      "view": 5,
+      "struct": {
+        "images": "",
+        "labels": "",
+        "features": ""
+      }
+    }
+  }
+}
