@@ -115,24 +115,24 @@ train_net.py # core processing code
 ```
 
 
-### Getting Started
+## Getting Started
 
-#### Prepare Dataset and Models
+### Prepare Dataset and Models
 
 1. Prepare the dataset [CSRD (dowload code: zWXX)](https://pan.quark.cn/s/98dff41f009e) and place it to `./data` as the project structure mentioned above.
 2. Prepare the models from [Model Zoo (download code: Jk9K)](https://pan.quark.cn/s/f06702cb5925) and place it to `./models` as the project structure mentioned above.
 
-#### Inference
+### Inference
 1. Test the result of CSRD-II by `python test_2view.py`.
 2. Test the result of CSRD-V by `python test_5view.py`.
 3. Test the result of CSRD-R by `python test_real.py`.
 
-#### Train
+### Train
 ```shell
     python train.py
 ```
 
-#### Visualization
+### Visualization
 Complete the following settings, run the inference code, and you will get visualization results similar to those in the paper.
 ```python
     cfg.draw_fig = True
