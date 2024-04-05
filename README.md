@@ -119,7 +119,7 @@ train_net.py # core processing code
 
 ### Prepare Dataset and Models
 
-1. Prepare the dataset [CSRD (dowload code: zWXX)](https://pan.quark.cn/s/98dff41f009e) and place it to `./data` as the project structure mentioned above.
+1. Prepare the dataset [CSRD (dowload code: Sfjs)](https://pan.quark.cn/s/6182f6bce0ef) and place it to `./data` as the project structure mentioned above.
 2. Prepare the models from [Model Zoo (download code: Jk9K)](https://pan.quark.cn/s/f06702cb5925) and place it to `./models` as the project structure mentioned above.
 
 ### Inference
