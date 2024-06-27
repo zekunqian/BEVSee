@@ -144,11 +144,12 @@ Complete the following settings, run the inference code, and you will get visual
 ## Cite BEVSee
 
 ```
-@inproceedings{qian2024bird,
-  title={From a Bird's Eye View to See: Joint Camera and Subject Registration without the Camera Calibration},
-  author={Qian, Zekun and Han, Ruize and Feng, Wei and Wang, Feifan and Wang, Song},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={},
-  year={2024}
+@InProceedings{Qian_2024_CVPR,
+    author    = {Qian, Zekun and Han, Ruize and Feng, Wei and Wang, Song},
+    title     = {From a Bird's Eye View to See: Joint Camera and Subject Registration without the Camera Calibration},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {863-873}
 }
 ```
