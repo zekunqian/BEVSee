@@ -119,8 +119,8 @@ train_net.py # core processing code
 
 ### Prepare Dataset and Models
 
-1. Prepare the dataset **CSRD** [(Baidu cloud code: 5pdk)](https://pan.baidu.com/s/11zcDn-STV8bpN47GSsMNag?pwd=5pdk) [(Huggingface)](https://huggingface.co/clarkqian/BEVSee/tree/main/models) and place it to `./data` as the project structure mentioned above.
-2. Prepare the models from **Model Zoo** [(Quard cloud code: Jk9K)](https://pan.quark.cn/s/f06702cb5925) [(Huggingface)](https://huggingface.co/datasets/clarkqian/CSRD/blob/main/CSRD.tar.gz)and place it to `./models` as the project structure mentioned above.
+1. Prepare the dataset **CSRD** [(Baidu Netdisk)](https://pan.baidu.com/s/11zcDn-STV8bpN47GSsMNag?pwd=5pdk) [(Huggingface)](https://huggingface.co/datasets/clarkqian/CSRD/blob/main/CSRD.tar.gz) and place it to `./data` as the project structure mentioned above.
+2. Prepare the models from **Model Zoo** [(Baidu Netdisk)](https://pan.baidu.com/s/1j-vXDX4IA0mXPoqQQX0ddQ?pwd=hruj ) [(Huggingface)](https://huggingface.co/clarkqian/BEVSee/tree/main/models)and place it to `./models` as the project structure mentioned above.
 
 ### Inference
 1. Test the result of CSRD-II by `python test_2view.py`.
