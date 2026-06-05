@@ -7,7 +7,7 @@ We tackle a new problem of multi-view camera and subject registration in the bir
 	For this purpose, we propose an end-to-end framework solving camera and subject registration together by taking advantage of their mutual dependence, whose main idea is as below: 
 	i) creating a subject view-transform module (VTM) to project each pedestrian from FPV to a virtual BEV, ii) deriving a multi-view geometry-based spatial alignment module (SAM) to estimate the relative camera pose in a unified BEV, iii) selecting and refining the subject and camera registration results within the unified BEV.
 	We collect a new large-scale synthetic dataset with rich annotations for training and evaluation. Additionally, we also collect a real dataset for cross-domain evaluation. 
-	The experimental results show the remarkable effectiveness of our method. 
+	The experimental results show the remarkable effectiveness of our method.  
 
 ## BEVSee
 <figure>
